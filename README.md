@@ -1,27 +1,5 @@
-# my-leetcode-answers
+# LeetCode Solutions
 
-## Solutions
+A collection of LeetCode problem solutions written in TypeScript, organized by problem number. Covers topics including arrays, hash maps, two pointers, sliding window, binary search, and dynamic programming.
 
-- [00001 - Two Sum](src/00001_twoSum.ts)
-- [00002 - Add Two Numbers](src/00002_addTwoNumbers.ts)
-- [00003 - Longest Substring Without Repeating Characters](src/00003_longestSubstringWithoutRepeatingCharacters.ts)
-- [00004 - Median of Two Sorted Arrays](src/00004_medianOfTwoSortedArrays.ts)
-- [00005 - Longest Palindrome Substring](src/00005_longestPalindromeSubstring.ts)
-- [00006 - Zigzag Conversion](src/00006_zigzagConversion.ts)
-- [00007 - Reverse Integer](src/00007_reverseInteger.ts)
-- [00008 - My Atoi](src/00008_myAtoi.ts)
-- [00009 - Is Palindrome](src/00009_isPalindrome.ts)
-- [00020 - Valid Parentheses](src/00020_validParentheses.ts)
-- [00036 - Valid Sudoku](src/00036_validSudoku.ts)
-- [00049 - Group Anagrams](src/00049_groupAnagrams.ts)
-- [00074 - Search Matrix](src/00074_searchMatrix.ts)
-- [00121 - Max Profit](src/00121_maxProfit.ts)
-- [00125 - Valid Palindrome](src/00125_validPalindrome.ts)
-- [00128 - Longest Consecutive Sequence](src/00128_longestConsecutiveSequence.ts)
-- [00136 - Single Number](src/00136_singleNumber.ts)
-- [00202 - Happy Number](src/00202_happyNumber.ts)
-- [00217 - Contains Duplicate](src/00217_containsDuplicate.ts)
-- [00238 - Product of Array Except Self](src/00238_productOfArrayExceptSelf.ts)
-- [00240 - Search Matrix II](src/00240_searchMatrix2.ts)
-- [00242 - Valid Anagram](src/00242_validAnagram.ts)
-- [00347 - Top K Frequent Elements](src/00347_topKFrequentElements.ts)
+**Total solutions: 35**
