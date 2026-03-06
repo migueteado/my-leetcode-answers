@@ -1,0 +1,26 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "A collection of LeetCode problem solutions written in TypeScript, organized by problem number. Covers topics including arrays, hash maps, two pointers, sliding window, binary search, and dynamic programming.",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueteado/my-leetcode-answers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/migueteado/my-leetcode-answers/issues"
+  },
+  "homepage": "https://github.com/migueteado/my-leetcode-answers#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
