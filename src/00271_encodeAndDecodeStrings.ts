@@ -1,4 +1,4 @@
-function encode(strs: string[]) {
+export function encode(strs: string[]) {
   let fullString = "";
   // Add the length and a limiter to each string
   // this will help for decoding
@@ -8,7 +8,7 @@ function encode(strs: string[]) {
   return btoa(fullString);
 }
 
-function decode(str: string) {
+export function decode(str: string) {
   const strs: string[] = [];
   let fullString = atob(str);
   let i = 0;

@@ -1,4 +1,4 @@
-function threeSum(nums: number[]): number[][] {
+export function threeSum(nums: number[]): number[][] {
   // Sort the array in advance, this reduces complexity
   // by ordering numbers from lowest to highest
   nums = nums.sort((a, b) => a - b);

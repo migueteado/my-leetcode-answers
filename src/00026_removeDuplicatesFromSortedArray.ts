@@ -15,7 +15,7 @@
  * What slowing down revealed: It revealed the way to traverse the array fully only once with one
  * of the pointers, which was an interesting outcome.
  */
-function removeDuplicates(nums: number[]): number {
+export function removeDuplicates(nums: number[]): number {
   // There is no case for empty arrays, the problems assures us that array has a length of at least 1
   // Array is guaranteed to be sorted in non-decreasing order
   // This is a Two Pointer problem because I need to keep comparing elements from two different parts

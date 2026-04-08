@@ -13,7 +13,7 @@
  * What slowing down revealed: Slowing down didn't help me with this problem. I didn't have
  * the knowledge to tackle this problem from the right approach.
  */
-function generateParenthesis(n: number): string[] {
+export function generateParenthesis(n: number): string[] {
   // Declare result before the helper function, that way due to hoisting
   // we can access it from within the helper function
   const result: string[] = [];

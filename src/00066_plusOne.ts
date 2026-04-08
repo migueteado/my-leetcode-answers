@@ -1,4 +1,4 @@
-function plusOne(digits: number[]): number[] {
+export function plusOne(digits: number[]): number[] {
   let remaining = 1;
   for (let i = digits.length - 1; i >= 0; i--) {
     const d = digits[i] + remaining;

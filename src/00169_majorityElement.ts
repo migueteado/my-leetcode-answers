@@ -1,5 +1,5 @@
 // My initial solution
-function majorityElement(nums: number[]): number {
+export function majorityElement(nums: number[]): number {
   const map = new Map<number, number>();
   let higherFrequency = 0;
   let result = nums[0];

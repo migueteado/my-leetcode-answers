@@ -15,7 +15,7 @@
  * that was necessary for the edge case where all the numbers in the array were the same
  */
 
-function fourSum(nums: number[], target: number): number[][] {
+export function fourSum(nums: number[], target: number): number[][] {
   let results: number[][] = [];
 
   // Sort the array in non-decreasing order

@@ -1,7 +1,7 @@
 // This is a stack problem
 // The trick is to use the stack to keep the indices of unsolved temperatures
 // As the array is traversed they get either resolved backwards or stay at 0
-function dailyTemperatures(temperatures: number[]): number[] {
+export function dailyTemperatures(temperatures: number[]): number[] {
   const answer: Array<number> = new Array(temperatures.length).fill(0);
   const stack: number[] = []; // store indices
 

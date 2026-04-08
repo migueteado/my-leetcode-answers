@@ -1,6 +1,6 @@
 // This is a base binary search problem
 // The idea is to keep splitting the search area by half in each iteration
-function search(nums: number[], target: number): number {
+export function search(nums: number[], target: number): number {
   // initial pointers/delimiters
   let left = 0;
   let right = nums.length - 1;

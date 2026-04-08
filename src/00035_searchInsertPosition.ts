@@ -14,7 +14,7 @@
  * position when target was not found, and properly discard middle in each iteration
  * of the binary search.
  */
-function searchInsert(nums: number[], target: number): number {
+export function searchInsert(nums: number[], target: number): number {
   // Start 2 pointers, one at each end of the array
   let left = 0;
   let right = nums.length - 1;

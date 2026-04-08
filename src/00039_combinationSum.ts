@@ -33,7 +33,7 @@
  * posibilities to find results and progressively keeps abandoning branches that don't
  * lead to a valid solution.
  */
-function combinationSum(candidates: number[], target: number): number[][] {
+export function combinationSum(candidates: number[], target: number): number[][] {
   const results: number[][] = [];
   // Sort, it will help us to make some assumptions
   // in the dfs

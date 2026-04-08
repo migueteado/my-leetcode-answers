@@ -1,4 +1,4 @@
-function myPow(x: number, n: number): number {
+export function myPow(x: number, n: number): number {
   if (n < 0) {
     x = 1 / x;
     n = -n;

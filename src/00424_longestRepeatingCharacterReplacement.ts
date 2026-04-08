@@ -1,7 +1,7 @@
 // This is a sliding window problem
 // It requires a two pointer approach, left and right.
 // Right will move in each iteration, left will move when required
-function characterReplacement(s: string, k: number): number {
+export function characterReplacement(s: string, k: number): number {
   // Map to keep traack of character repetitions
   const map = new Map<string, number>();
   // Keep track of the most repeated character in current iteration

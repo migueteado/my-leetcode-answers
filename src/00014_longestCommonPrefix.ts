@@ -15,7 +15,7 @@
  * code made the comparison pattern obvious. The algorithm came from the examples,
  * not from trying to recall a technique.
  */
-function longestCommonPrefix(strs: string[]): string {
+export function longestCommonPrefix(strs: string[]): string {
   // There is no case for empty arrays. The problem assures that length is at least 1
   // The list has only one word. That is the result.
   if (strs.length === 1) {

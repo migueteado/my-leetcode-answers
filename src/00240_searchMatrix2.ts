@@ -1,4 +1,4 @@
-function searchMatrix2(matrix: number[][], target: number): boolean {
+export function searchMatrix2(matrix: number[][], target: number): boolean {
   // 1. Start at top right
   let row = 0;
   let col = matrix[0].length - 1;

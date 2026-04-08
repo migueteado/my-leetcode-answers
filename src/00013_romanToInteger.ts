@@ -1,4 +1,4 @@
-function romanToInt(s: string): number {
+export function romanToInt(s: string): number {
   const map: Record<string, number> = {
     I: 1,
     V: 5,

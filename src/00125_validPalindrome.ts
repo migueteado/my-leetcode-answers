@@ -1,4 +1,4 @@
-function isPalindrome(s: string): boolean {
+export function isPalindrome(s: string): boolean {
   const sArray = s
     .replace(/[^a-zA-Z0-9]/g, "")
     .toLowerCase()

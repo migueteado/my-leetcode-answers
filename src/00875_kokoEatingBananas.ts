@@ -1,4 +1,4 @@
-function minEatingSpeed(piles: number[], h: number): number {
+export function minEatingSpeed(piles: number[], h: number): number {
   function helper(piles: number[], h: number, k: number) {
     let counter = 0;
     for (const pile of piles) {

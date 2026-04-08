@@ -1,6 +1,6 @@
 // This is a stack problem
 // The idea is to sort cars by their position and then use a stack to keep track of the fleets
-function carFleet(target: number, position: number[], speed: number[]): number {
+export function carFleet(target: number, position: number[], speed: number[]): number {
   // sort positions from higher to lowest
   // keep paired with speed
   const cars = position

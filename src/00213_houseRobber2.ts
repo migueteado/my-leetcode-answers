@@ -4,7 +4,7 @@
 // To solve it separate the problem into two subproblems
 // Removing the circular constraint and making it
 // into 2 linear problems
-function rob2(nums: number[]): number {
+export function rob2(nums: number[]): number {
   // If only one house just rob it
   if (nums.length <= 1) {
     return nums[0];

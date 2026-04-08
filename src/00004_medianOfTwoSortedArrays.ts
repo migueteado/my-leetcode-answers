@@ -1,4 +1,4 @@
-function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
+export function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
   // Merge the two arrays and sort them
   const merged = nums1.concat(nums2).sort((a, b) => a - b);
   // Find the middle of the merged array

@@ -15,7 +15,7 @@
  */
 
 // Definition for singly-linked list.
-class ListNode {
+export class ListNode {
   val: number;
   next: ListNode | null;
   constructor(val?: number, next?: ListNode | null) {
@@ -24,7 +24,7 @@ class ListNode {
   }
 }
 
-function addTwoNumbers(
+export function addTwoNumbers(
   l1: ListNode | null,
   l2: ListNode | null,
 ): ListNode | null {

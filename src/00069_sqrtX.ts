@@ -1,4 +1,4 @@
-function mySqrt(x: number): number {
+export function mySqrt(x: number): number {
   let left = 0;
   let right = x;
   while (left <= right) {

@@ -1,4 +1,4 @@
-function longestPalindrome(s: string): string {
+export function longestPalindrome(s: string): string {
   let longest = "";
   for (let i = 0; i < s.length; i++) {
     let left = i;

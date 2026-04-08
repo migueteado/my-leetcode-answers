@@ -1,4 +1,4 @@
-function myAtoi(s: string) {
+export function myAtoi(s: string) {
   // Set upper clamp
   const max = Math.pow(2, 31) - 1;
   // Set lower clamp

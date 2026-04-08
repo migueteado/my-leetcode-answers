@@ -3,7 +3,7 @@
 // Use a bottom up approach because it is cleaner and easier to follow
 // At each step select the best robbing option between
 // i-2 + i houses and i-1 houses
-function rob(nums: number[]): number {
+export function rob(nums: number[]): number {
   // If only one house just rob it
   if (nums.length <= 1) {
     return nums[0];

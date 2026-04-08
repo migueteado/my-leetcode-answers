@@ -1,4 +1,4 @@
-function fizzBuzz(n: number): string[] {
+export function fizzBuzz(n: number): string[] {
   const answer: string[] = [];
   for (let i = 1; i <= n; i++) {
     let str = "";

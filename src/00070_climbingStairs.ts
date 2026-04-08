@@ -3,7 +3,7 @@
 // Use a bottom up approach since it is easier to follow
 // The idea is that we will keep track of the number of ways to reach each step
 // and keep accumulating them
-function climbStairs(n: number): number {
+export function climbStairs(n: number): number {
   // no steps or only one, return the total ways
   // 1 step = 1 way
   // 0 steps = 0 ways

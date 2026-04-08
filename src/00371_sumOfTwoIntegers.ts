@@ -8,7 +8,7 @@
 // Right shift operator, moves to the right n times and fills with 0s
 // 2 >> 1 = 001 = 1
 // 3 >> 1 = 001 = 1
-function getSum(a: number, b: number): number {
+export function getSum(a: number, b: number): number {
   // The carry, for example:
   // (2 & 3) << 1 = (010 & 011) << 1 = 010 << 1 = 100
   const carry = (a & b) << 1;

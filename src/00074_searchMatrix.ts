@@ -1,4 +1,4 @@
-function searchMatrix(matrix: number[][], target: number): boolean {
+export function searchMatrix(matrix: number[][], target: number): boolean {
   // 1. Flatten matrix
   const flatMatrix = matrix.flat();
   // 2. Binary search

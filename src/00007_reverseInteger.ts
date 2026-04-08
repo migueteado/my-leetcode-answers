@@ -1,4 +1,4 @@
-function reverse(n: number): number {
+export function reverse(n: number): number {
   // Start with reversed as 0
   let reversed = 0;
   // While n is not 0

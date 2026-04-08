@@ -1,4 +1,4 @@
-function trap(height: number[]): number {
+export function trap(height: number[]): number {
   // Keep pointer for left side
   let left = 0;
   // Keep pointer for right side

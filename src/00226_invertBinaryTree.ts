@@ -1,5 +1,5 @@
 // Definition for a binary tree node.
-class TreeNode {
+export class TreeNode {
   val: number;
   left: TreeNode | null;
   right: TreeNode | null;
@@ -10,7 +10,7 @@ class TreeNode {
   }
 }
 
-function invertTree(root: TreeNode | null): TreeNode | null {
+export function invertTree(root: TreeNode | null): TreeNode | null {
   if (!root) {
     return null;
   }

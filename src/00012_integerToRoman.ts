@@ -12,7 +12,7 @@
  *
  * What slowing down revealed: Slowing down revealed the additive/subtractive structure and got me close — I even considered adding the special cases to the map. The missing step was recognizing that the problem needed ordered iteration, not key lookup, which would have made the greedy approach visible.
  */
-function intToRoman(num: number): string {
+export function intToRoman(num: number): string {
   // Instead of using a map, we will use two arrays to store the values
   // and their corresponding Roman numerals. This is another way of
   // mapping as they share the index

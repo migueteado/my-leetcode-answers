@@ -1,4 +1,4 @@
-function isHappy(n: number): boolean {
+export function isHappy(n: number): boolean {
   const track = new Set<number>();
 
   while (true) {

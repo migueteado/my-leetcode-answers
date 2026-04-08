@@ -1,4 +1,4 @@
-function countPrimes(n: number): number {
+export function countPrimes(n: number): number {
   if (n < 2) return 0;
   const sieve = new Array(n).fill(true);
   // Make 0 and 1 false

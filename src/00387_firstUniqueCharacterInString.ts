@@ -1,4 +1,4 @@
-function firstUniqChar(s: string): number {
+export function firstUniqChar(s: string): number {
   const map: Map<string, number> = new Map();
   for (let i = 0; i < s.length; i++) {
     if (!map.has(s[i])) {

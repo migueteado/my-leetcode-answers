@@ -2,7 +2,7 @@
 // Stacks are LIFO structures -> Last in First out
 // Remember that in a stack you only have access to the top element
 // To reach for other elements the top element has to be removed first
-class MinStack {
+export class MinStack {
   // Main stack
   stack: number[];
   // Stack to keep track of min numbers

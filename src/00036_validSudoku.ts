@@ -1,4 +1,4 @@
-function isValidSudoku(board: string[][]): boolean {
+export function isValidSudoku(board: string[][]): boolean {
   const PLACEHOLDER = ".";
   function isValidRow(board: string[][], row: number) {
     const hash = new Set<string>();

@@ -1,4 +1,4 @@
-function countSubstrings(s: string): number {
+export function countSubstrings(s: string): number {
   function expand(left: number, right: number): number {
     let res = 0;
     while (left >= 0 && right < s.length && s[left] === s[right]) {

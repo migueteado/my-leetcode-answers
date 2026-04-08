@@ -1,4 +1,4 @@
-function productExceptSelf(nums: number[]): number[] {
+export function productExceptSelf(nums: number[]): number[] {
   const n = nums.length;
   const answer: number[] = new Array(n);
 

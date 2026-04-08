@@ -1,4 +1,4 @@
-function topKFrequent(nums: number[], k: number): number[] {
+export function topKFrequent(nums: number[], k: number): number[] {
   const frequencyMap: Map<number, number> = new Map<number, number>();
   for (const n of nums) {
     const frequency = (frequencyMap.get(n) ?? 0) + 1;

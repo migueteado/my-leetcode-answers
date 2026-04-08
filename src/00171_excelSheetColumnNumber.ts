@@ -1,5 +1,5 @@
 // They are always uppercase letters
-function titleToNumber(columnTitle: string): number {
+export function titleToNumber(columnTitle: string): number {
   const letters = columnTitle.split("");
   const length = letters.length;
   let result = 0;

@@ -13,19 +13,16 @@
  * before.
  */
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
+export class ListNode {
+    val: number
+    next: ListNode | null
+    constructor(val?: number, next?: ListNode | null) {
+        this.val = (val===undefined ? 0 : val)
+        this.next = (next===undefined ? null : next)
+    }
+}
 
-function removeElements(head: ListNode | null, val: number): ListNode | null {
+export function removeElements(head: ListNode | null, val: number): ListNode | null {
   // Create a Dummy node to handle the edge case of the first
   // node being a coincidence of val
   const dummy = new ListNode();

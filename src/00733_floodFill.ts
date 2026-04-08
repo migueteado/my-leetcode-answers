@@ -18,7 +18,7 @@
  * shortcut to avoid array.shift() or have a little more overhead due to the array.shift()
  * mechanism. But removes the risk of a stack overflow for large inputs
  */
-function floodFill(
+export function floodFill(
   image: number[][],
   sr: number,
   sc: number,
@@ -65,7 +65,7 @@ function floodFill(
  * On the other hand the recursive approach is easier to read but can perform poorly
  * with larger datasets. This is common for recursive approaches.
  */
-function floodFill2(
+export function floodFill2(
   image: number[][],
   sr: number,
   sc: number,

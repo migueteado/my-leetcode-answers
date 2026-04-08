@@ -1,4 +1,4 @@
-function convert(s: string, numRows: number): string {
+export function convert(s: string, numRows: number): string {
   // If numRows is 1, return the string received, no need for zigzag
   if (numRows === 1) {
     return s;

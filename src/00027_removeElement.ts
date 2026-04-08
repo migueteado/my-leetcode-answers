@@ -16,7 +16,7 @@
 
 // This problem can be solved with a two pointers approach
 // traversing nums from both sides
-function removeElement(nums: number[], val: number): number {
+export function removeElement(nums: number[], val: number): number {
   // Verify if nums is empty
   if (nums.length === 0) return nums.length;
   // The function handles this case correctly without the guard.

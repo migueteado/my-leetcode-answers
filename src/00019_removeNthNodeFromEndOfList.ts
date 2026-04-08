@@ -1,16 +1,13 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
+export class ListNode {
+    val: number
+    next: ListNode | null
+    constructor(val?: number, next?: ListNode | null) {
+        this.val = (val===undefined ? 0 : val)
+        this.next = (next===undefined ? null : next)
+    }
+}
 
-function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
+export function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   // Use a dummy node to include the cases where the node to remove
   // is the head
   const dummyNode = new ListNode(0);

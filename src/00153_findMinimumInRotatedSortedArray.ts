@@ -1,4 +1,4 @@
-function findMin(nums: number[]): number {
+export function findMin(nums: number[]): number {
   let left = 0;
   let right = nums.length - 1;
   while (left < right) {

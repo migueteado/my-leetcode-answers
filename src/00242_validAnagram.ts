@@ -1,4 +1,4 @@
-function isAnagram(s: string, t: string): boolean {
+export function isAnagram(s: string, t: string): boolean {
   const sLength = s.length;
   const tLength = t.length;
   if (sLength !== tLength) {

@@ -1,4 +1,4 @@
-function longestConsecutive(nums: number[]): number {
+export function longestConsecutive(nums: number[]): number {
   const set = new Set(nums);
   let max = 0;
 

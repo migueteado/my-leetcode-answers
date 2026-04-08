@@ -1,19 +1,16 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
+export class ListNode {
+    val: number
+    next: ListNode | null
+    constructor(val?: number, next?: ListNode | null) {
+        this.val = (val===undefined ? 0 : val)
+        this.next = (next===undefined ? null : next)
+    }
+}
 
 /**
  Do not return anything, modify head in-place instead.
  */
-function reorderList(head: ListNode | null): void {
+export function reorderList(head: ListNode | null): void {
   // Put slow in the middle of the list
   let slow = head;
   let fast = head;

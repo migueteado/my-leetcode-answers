@@ -1,5 +1,5 @@
 // Comparing helper function
-function matches(s1Count: number[], s2Count: number[]) {
+export function matches(s1Count: number[], s2Count: number[]) {
   for (let i = 0; i < 26; i++) {
     if (s1Count[i] !== s2Count[i]) return false;
   }
@@ -7,7 +7,7 @@ function matches(s1Count: number[], s2Count: number[]) {
   return true;
 }
 
-function checkInclusion(s1: string, s2: string): boolean {
+export function checkInclusion(s1: string, s2: string): boolean {
   if (s1.length > s2.length) return false;
 
   // Use an array of 26 slots, english lowercase letter are 26 in total

@@ -1,4 +1,4 @@
-function evalRPN(tokens: string[]): number {
+export function evalRPN(tokens: string[]): number {
   const stack: number[] = [];
   for (const token of tokens) {
     if (token === "+") {

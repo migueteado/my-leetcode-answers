@@ -1,4 +1,4 @@
-function isValid(s: string): boolean {
+export function isValid(s: string): boolean {
   // Odd lengths are invalid by default
   // because for porper closing it needs an
   // even number of parentheses
