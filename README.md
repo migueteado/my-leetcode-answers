@@ -2,7 +2,7 @@
 
 A collection of LeetCode problem solutions written in TypeScript, organized by problem number.
 
-**Total solutions: 85**
+**Total solutions: 92**
 
 ## Topics covered
 
@@ -19,3 +19,7 @@ A collection of LeetCode problem solutions written in TypeScript, organized by p
 - Dynamic Programming
 - Bit Manipulation
 - Math
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
